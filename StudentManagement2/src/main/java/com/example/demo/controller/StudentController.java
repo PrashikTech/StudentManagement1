@@ -15,7 +15,7 @@ public class StudentController {
 	@Autowired
 	StudentService ss;
 
-	@GetMapping("fees")
+	@GetMapping("FeesPaid")
 	String printFees() {
 
 	return ss.printFees();
